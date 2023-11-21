@@ -124,6 +124,12 @@ body{
   color: #28514e;
   font-size: 2.5rem;
   margin-top: 5%;
+  white-space: nowrap;
+}
+
+.question span{
+  background: #fff;
+  padding: 0.5em;
 }
 
 .social{
@@ -203,8 +209,13 @@ body{
 }
 
 .question{
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 0.2em;
+}
+
+.question span{
+  background: none;
+  padding: none;
 }
 
 .social{
