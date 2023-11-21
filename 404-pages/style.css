@@ -136,7 +136,7 @@ body{
   display: flex;
   gap: 3em;
   justify-content: center;
-  margin-block: 3em;
+  margin: 3em 0 10em 0;
 }
 
 .social img{
