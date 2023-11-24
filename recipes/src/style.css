@@ -46,6 +46,31 @@ header h1{
   font-family: 'Permanent Marker';
 }
 
+.scrolling-text {
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+      margin-top: 1em;
+      width: 100%;
+      padding-block: 0.6em;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      font-weight: 900;
+      
+    }
+    .scrolling-text .caption{
+      display: inline-block;
+      animation: marquee 10s linear infinite;
+      font-size: 0.8rem;
+    }
+
+
+@keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
+
+
 header h5{
   padding-bottom: 1em;
 }
@@ -246,7 +271,12 @@ footer{
 
 @media screen and (min-width: 768px){
   header{
-    margin-bottom: 4em;
+    margin-bottom: 1em;
+  }
+  
+  .caption{
+    font-size: 1.4em;
+    margin-bottom: 1em;
   }
   
   header h1{
