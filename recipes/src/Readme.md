@@ -1,5 +1,3 @@
----
-
 # Recipes Web Application
 
 ## Table of Contents
@@ -60,5 +58,3 @@ This project is licensed under the MIT License. For more details, refer to the [
 ## Contact Information
 
 For any inquiries or feedback regarding the project, reach out to [E-mail](odibehenry@gmail.com).
-
----
