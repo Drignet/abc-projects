@@ -5,11 +5,17 @@
 }
 
 body{
-  background: red;
+  background: hsl(50, 25%, 40%);
+  height: 100vh;
+  line-height: 1.5rem;
 }
 
 .ul-nav, .ul-footer li{
   list-style-type: none;
+}
+
+.ul-nav a, .ul-footer a{
+  text-decoration: none;
 }
 
 header{
@@ -17,6 +23,16 @@ header{
   grid-template-columns: 1fr 4fr;
   align-items: center;
   background: #222;
+  color: #fff;
+}
+
+header h1{
+  margin-inline: 0.4em;
+  font-size: 1.6rem;
+  padding: 0.4em 0.6em;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  border-radius: 14px;
+  text-align: center;
 }
 
 .ul-nav{
@@ -26,20 +42,41 @@ header{
   text-align: center;
 }
 
+.ul-nav a{
+  color: #fff;
+}
+
+main{
+  background: url("./assets/beautiful-lady.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 90vh;
+  
+}
+
 footer{
   position: fixed;
   bottom: 0;
   min-width: 100%;
   background: #222;
   color: #fff;
-  padding-block: 2em;
+  font-size: 0.8rem;
+}
+
+footer h2{
+  margin-block: 0.4em;
+  text-align: center;
+  color: rgba(3, 102, 214, 0.3);
+  font-size:1rem;
 }
 
 .main-footer{
   display: grid;
   grid-template-columns: 1fr;
-  place-items: center;
-  margin-bottom: 2em;
+  justify-items: center;
+  align-items: center;
 }
 
 .ul-footer{
@@ -47,12 +84,82 @@ footer{
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-bottom: 2.4em;
+}
+
+.menu a{
+  color: #fff;
+}
+
+.contact-icons span{
+  color: #fff;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6em;
 }
 
 .foot{
   background: #000;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   padding-block: 0.8em;
+  margin-top: 2em;
+}
+
+@media screen and (min-width: 768px){
+  body{
+  line-height: 2.2rem;
+}
+
+header{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  justify-items: end;
+  align-items: center;
+  padding-block: 2em;
+}
+
+.ul-nav{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 2rem;
+  gap: 2em;
+  margin-right: 2em;
+  font-weight: 500;
+}
+
+.ul-nav a:hover{
+  border-bottom: 5px solid rgba(3, 102, 214);
+  background: gold;
+  padding: 0.5em 1em;
+  color: rgba(3, 102, 214, 0.6);
+}
+
+  footer h2{
+  margin-block: 0.8em;
+  font-size:1.8rem;
+}
+
+  .main-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: start;
+    margin-bottom: 1.6em;
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+  
+  .social{
+  margin-bottom: 0;
+}
+
+.foot{
+  font-size: 1.4rem;
+  padding-block: 1em;
+}
+
 }
