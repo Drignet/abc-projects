@@ -8,6 +8,7 @@ body{
   background: hsl(50, 25%, 40%);
   height: 100vh;
   line-height: 1.5rem;
+  text-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
 .ul-nav, .ul-footer li{
@@ -24,6 +25,8 @@ header{
   align-items: center;
   background: #222;
   color: #fff;
+  border-bottom: 4px solid rgba(3, 102, 214, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
 header h1{
@@ -63,6 +66,7 @@ footer{
   background: #222;
   color: #fff;
   font-size: 0.8rem;
+  border-top: 4px solid rgba(3, 102, 214, 0.3);
 }
 
 footer h2{
