@@ -263,8 +263,7 @@ header{
 }
 
 footer{
-  position: fixed;
-  bottom: 0;
+  position: static;
 }
 
   footer h2{
