@@ -148,7 +148,7 @@ figcaption{
   position:relative;
   z-index: -1;
   top: -100px;
-  transition: all 0.3s linear;
+  transition: all 0.2s linear;
   opacity: 0;
 }
 
