@@ -33,7 +33,7 @@ Contributions are welcome! Feel free to fork the repository, make changes, and s
 
 ## Authors
 
-- **[Drignet]** - *Initial work* - [YourGitHubUsername](https://github.com/drignet)
+- **[Drignet]** - *Initial work* - [Github Profile](https://github.com/drignet)
 
 ## License
 
