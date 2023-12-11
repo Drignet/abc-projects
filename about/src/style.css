@@ -485,8 +485,8 @@ header{
 }
 
 footer{
-  position: fixed;
-  bottom: 0;
+  dposition: fixed;
+  dbottom: 0;
 }
 
   .main-footer{
